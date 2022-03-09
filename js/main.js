@@ -4,7 +4,7 @@ $(window).on('load', function() {
 	
 	$('body').append('<audio loop autoplay volume="1" id="audio-player"><source src="music.mp3" type="audio/mpeg"></audio>');
     	var audio = document.getElementById("audio-player");
-    	audio.volume = 1;
+    	audio.volume = 0.2;
 	
 	if($(window).length) {
 		$('.music-bg').css({'visibility':'visible'});
